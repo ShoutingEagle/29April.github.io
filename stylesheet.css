@@ -1,0 +1,127 @@
+
+
+/* Presets */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Utility */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.grid{
+    display: grid;
+}
+
+
+
+/* Section-1 */
+
+.section-1{
+    height: 30%;
+    
+    padding:40px ;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: #808080;
+    align-items: center;
+    
+}
+
+
+
+/* Section-2 */
+
+.container-2{
+    height: 400px;
+    
+    display: grid;
+    row-gap: 10px;
+    padding:40px ;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: 300px 600px ;  
+    
+    
+}
+
+.child-1{
+    background-color: #808080;
+    padding: 12px;
+    
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.child-2{
+    background-color: #808080;
+    padding: 12px;
+} 
+
+
+
+/* section-3 */
+
+.container-3{
+    padding-top: 20px;
+}
+
+
+.card-img-top{
+    background-color:#808080;
+    height: 300px;
+}
+
+
+
+
+/* section-4 */
+
+
+.container-4{
+   
+   margin: auto;
+    justify-content: space-between;
+    padding: 30px;
+    width: 900px;
+
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+
+
+/* section-5 */
+
+.container-5{
+    justify-content: center;
+    gap: 400px;
+}
+
+
+
+.new2{
+    color:white;
+}
+
